@@ -1,4 +1,5 @@
-<?php defined('SYSPATH') or die('No direct script access.');
+<?php
+
 /**
  * @package  Captcha
  *
@@ -16,7 +17,6 @@
  *  fonts		Font files
  *  promote		Valid response count threshold to promote user (FALSE to disable)
  */
-
 return array(
 	'default' => array(
 		'style'      	=> 'alpha',
