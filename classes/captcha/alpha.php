@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Alpha captcha class.
  *
@@ -7,7 +8,7 @@
  * @author		Michael Lavers
  * @author		Kohana Team
  * @copyright	(c) 2008-2010 Kohana Team
- * @license		http://kohanaphp.com/license.html
+ * @license		BSD-3-Clause
  */
 class Captcha_Alpha extends Captcha 
 {
