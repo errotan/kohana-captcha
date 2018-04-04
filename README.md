@@ -28,6 +28,11 @@ simply set the first parameter for render() to FALSE:
 
 > $captcha->render(FALSE);
 
+For the riddle style you must save the challenge at the end of your controller
+action or in after().
+
+> Captcha::instance()->update_response_session();
+
 ## Captcha Styles
 
 * alpha
