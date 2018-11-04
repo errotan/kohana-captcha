@@ -10,5 +10,8 @@
             "name": "Puskás Zsolt",
             "homepage": "https://github.com/errotan"
         }
-    ]
+    ],
+    "require": {
+        "php": ">=7.0"
+    }
 }
